@@ -1,0 +1,70 @@
+/* Resets */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background: url('hyrox.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+/* Header and Navigation Styles */
+header {
+  background-color: transparent;
+  color: white;
+  padding: 20px 30px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.nav-links {
+  float: right;
+  list-style-type: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #006400;
+  color: #fff;
+}
+
+/* Video Container Styles */
+.video-container {
+  text-align: center;
+  padding: 20px;
+}
+
+iframe {
+  margin: 20px;
+  width: 40%;    height: 300px; }
+
+@media screen and (max-width: 600px) {
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000; /* Black background */
+  color: white; /* White text color */
+}
